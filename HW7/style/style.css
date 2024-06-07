@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    /* width: 1728px; */
+    background-image: url(../img/фон_сайту.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  header {
+    margin-top: 42px;
+    margin-bottom: 115px;
+  }
+  
+  .container {
+    width: 1728px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 33px 0px 80px;
+  }
+  
+  .be-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-side-header {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+  }
+  
+  .premier {
+    color: #c8c8c8;
+    font-weight: 500;
+  
+    position: relative;
+  }
+  
+  .premier::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 28px;
+    background-color: #fff;
+    position: absolute;
+    left: -26px;
+    top: -4px;
+  }
+  
+  .right-side-header {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    border: none;
+    margin-right: 16px;
+    color: #fff;
+  }
+  
+  .content-thumb {
+    width: 911px;
+  }
+  
+  .genres-container {
+    margin-bottom: 26px;
+  }
+  
+  .genres {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+  
+    position: relative;
+  }
+  
+  .genres:not(:last-child) {
+    margin-right: 45px;
+  }
+  
+  .genres:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 33px;
+    background-color: #fff;
+  
+    position: absolute;
+    right: -20px;
+    top: 4px;
+  }
+  
+  h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.52px;
+  
+    margin-bottom: 34px;
+  }
+  
+  .info {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: normal;
+  
+    margin-bottom: 19px;
+  }
+  
+  .divider {
+    margin-left: 22px;
+  }
+  
+  .divider::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: #fff;
+    margin-right: 22px;
+  }
+  
+  .info-gray {
+    color: #a7a6a6;
+  }
+  
+  .film-description {
+    color: #a7a6a6;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 141.523%; /* 33.965px */
+  
+    margin-bottom: 28px;
+  }
+  
+  .raiting {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+  
+    margin-bottom: 55px;
+  }
+  
+  .star-item {
+    color: #ffea2b;
+  }
+  
+  .star-item_non-active {
+    color: #fff;
+  }
+  
+  .buttons-list {
+    display: flex;
+    gap: 50px;
+  
+    margin-bottom: 54px;
+  }
+
+  .btn {
+    font-family: inherit;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 141.523%; 
+  }
+  
+  .primary-btn {
+    display: flex;
+    border: none;
+  
+    gap: 18px;
+    align-items: center;
+    background-color: #d40d1f;
+  
+    padding: 16px 34px;
+  
+    color: #fff;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    border: 3px solid #fff;
+  
+    padding: 16px 58px;
+  }
+  
+  .popular-container {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-bottom: 32px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 144.523%; /* 31.795px */
+    letter-spacing: 2.97px;
+  }
+  
+  .slider-arrows {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .arrow-btn {
+    font-size: 14px;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  
+    border-radius: 100%;
+    border: 2px solid #a7a6a6;
+    color: #a7a6a6;
+  }
+  
+  .arrow-btn:hover {
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .popular-list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .age-restrictions {
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+    font-weight: 500;
+    line-height: 141.523%; 
+  
+    padding: 15px 33px 15px 26px;
+    background: rgba(255, 255, 255, 0.49);
+    border-left: 33px solid #d40d1f;
+  }
